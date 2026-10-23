@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.14](https://github.com/willnode/cc-rs/compare/find-msvc-tools-v0.1.13...find-msvc-tools-v0.1.14) - 2026-10-23
+
+### Fixed
+
+- Make `windows_sys` more private and re-export types needed by cc-rs ([#1944](https://github.com/willnode/cc-rs/pull/1944))
+
+### Other
+
+- Regenerate windows sys bindings ([#1926](https://github.com/willnode/cc-rs/pull/1926))
+- Regenerate windows sys bindings ([#1919](https://github.com/willnode/cc-rs/pull/1919))
+- use workspace inheritance ([#1850](https://github.com/willnode/cc-rs/pull/1850))
+- convert to workspace lints ([#1849](https://github.com/willnode/cc-rs/pull/1849))
+- Update MSRV to 1.65 ([#1834](https://github.com/willnode/cc-rs/pull/1834))
+- Refactor max_by to max_by_key for clarity ([#1828](https://github.com/willnode/cc-rs/pull/1828))
+- Add `find_windows_sdk` API ([#1663](https://github.com/willnode/cc-rs/pull/1663))
+- Regenerate windows sys bindings ([#1653](https://github.com/willnode/cc-rs/pull/1653))
+- Fix tool existence check in find_tool method ([#1645](https://github.com/willnode/cc-rs/pull/1645))
+- Fix SdkInfo::find_tool to check for executable extension ([#1644](https://github.com/willnode/cc-rs/pull/1644))
+- Update Readmes ([#1641](https://github.com/willnode/cc-rs/pull/1641))
+- Add Visual Studio 2026 support ([#1609](https://github.com/willnode/cc-rs/pull/1609))
+- Allow using VCToolsVersion to request a specific msvc version ([#1589](https://github.com/willnode/cc-rs/pull/1589))
+- Regenerate windows sys bindings ([#1591](https://github.com/willnode/cc-rs/pull/1591))
+- Regenerate windows sys bindings ([#1572](https://github.com/willnode/cc-rs/pull/1572))
+- [win] Search the Windows SDK for tools as well ([#1553](https://github.com/willnode/cc-rs/pull/1553))
+- Regenerate windows sys bindings ([#1548](https://github.com/willnode/cc-rs/pull/1548))
+- Add fn get_ucrt_dir for find-msvc-tools ([#1546](https://github.com/willnode/cc-rs/pull/1546))
+- Extract windows-find-tools ([#1531](https://github.com/willnode/cc-rs/pull/1531))
+
 ## [0.1.13](https://github.com/rust-lang/cc-rs/compare/find-msvc-tools-v0.1.12...find-msvc-tools-v0.1.13) - 2026-09-18
 
 ### Other
